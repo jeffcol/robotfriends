@@ -12,7 +12,10 @@ import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <React.StrictMode>
     <Fragment>
+      <main className="tc">
       <App/>
+      </main>
+      
     </Fragment>
   </React.StrictMode>,
   document.getElementById("root")
