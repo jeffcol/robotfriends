@@ -1,11 +1,9 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
+import App from "./containers/App";
 import "tachyons";
-import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-
 
 // cd D:\git\robofriends
 //username = {robots[0].username }
@@ -14,9 +12,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Fragment>
       <main className="tc">
-      <App/>
+        <App />
       </main>
-      
     </Fragment>
   </React.StrictMode>,
   document.getElementById("root")
